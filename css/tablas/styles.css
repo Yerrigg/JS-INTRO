@@ -1,0 +1,33 @@
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    /* border-spacing: 5px; */
+    padding: 7px;
+}
+
+th {
+    text-align: center;
+    background-color: #457b9d;
+    color: #f1faee;
+}
+
+
+table {
+    width: 100%;
+}
+
+caption {
+    font-size: 50px;
+    color: #e63946;
+    line-height: 70px;
+    font-family: "Jersey 10";
+}
+
+tr:nth-child(even) {
+    background-color: #f1faee;
+}
+
+tr:nth-child(odd) {
+    background-color: #a8dadc;
+}

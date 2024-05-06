@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    text-align: center;
+    color: #e63946;
+}
+
+.divi{
+    padding: 15px 10px;
+    border: 5px solid #457b9d;
+    margin: 30px;
+    background-color: #ff517cee;
+    max-width: 300px;
+    /* max-height: 100px; */
+    /* outline: 10px solid #a8dadc; */
+    /* outline-offset: 10px; */
+    box-sizing: border-box;
+}
+
+.divi2{
+    padding: 15px 10px;
+    border: 5px solid #457b9d;
+    margin: 20px;
+    background-color: #ff517cee;
+    max-width: 300px;
+    /* max-height: 100px; */
+    /* outline: 10px solid #a8dadc; */
+    /* outline-offset: 10px; */
+    box-sizing: border-box;
+}

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en-es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio Yerri</title>
+</head>
+<body>
+    <span>Hola, soy</span>
+    <h2>Yerri</h2>
+    <p>Soy estudiante de Ingeniería de Sistemas y actualmente estoy desarrollando experiencias digitales.</p>
+    <form method="get" action="registrar.php" target="_blank">
+        <fieldset>
+            <label for="nombre"> nombre: </label>
+                <input type="text" id="nombre" placeholder="Ingrese nombre" tabindex="1">
+            <label for="apellido">Apellido: </label>
+                <input type="text" id="apellido" placeholder="Ingrese apellido" tabindex="3">
+            <label for="nickname">Apodo</label>
+                <input type="text" id="nickname" placeholder="Ingrese Apodo" tabindex="2">
+                
+                <label for="masculino">Sexo: </label>
+                    <input type="radio" name="Sexo">Masculino 
+                    <input type="radio" name="Sexo">Femenino 
+                    <input type="radio" name="Sexo">Otros <br><br>
+                <br>Telefono: <input type="tel" placeholder="+51 922 653 095"> <br> <br>
+                <input type="file"> <br><br>
+
+                <select name="depa" id="depa">Seleccione una opcion:
+                    <option value="1">Cutervo</option>
+                    <option value="2">Cajamarca</option>
+                    <option value="3">Jaen</option>
+                    <option value="4" selected>Bambamarca</option>
+                </select><br><br>
+
+                <select name="opc" id="opc">
+                    <option disabled selected>Elige una opcion</option>
+                    <option value="1">Messi</option>
+                    <option value="2">Cristiano Ronaldo</option>
+                    <option value="3">Neymar Jr</option>
+                </select><br><br>
+
+                <input type="text" list="opcion">
+                    <datalist id="opcion">
+                        <option value="Yerri">Director</option>
+                        <option value="Juan">Operario</option>
+                        <option value="Anghy">Marketing</option>
+                        <option value="Elsa">Administradora</option>
+                    </datalist><br><br>
+
+
+                <label for="coment">Comentario: </label><br>
+                    <textarea name="coment" id="coment" cols="30" rows="10" placeholder="Ingresa coment..."></textarea><br><br>
+                
+                    <input type="submit" value="registrar">
+                    <input type="reset" value="Resetear formulario">
+
+        </fieldset>
+
+
+
+        
+    </form>
+
+
+</body>
+</html>
+

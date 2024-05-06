@@ -1,0 +1,254 @@
+<!-- Nodo especifiar html -->
+<!DOCTYPE html>
+<html lang="es-en">
+    <head>
+        <title>Curso-Html Midu</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <!-- Metadatos con Open Graph -->
+        <meta property="og:title" content="Titulo alternativo">
+        <meta property="og:image" content="imagenes/PerfilSocial.jpg">
+        
+        <style>
+            h1 {
+                color: rgba(0, 0, 0, 60%);
+            }
+            body {
+                background: pink;
+            }
+
+            a {
+                color: yellow;
+            }
+
+            .enlace-yerri {
+                color: rgb(33, 121, 80);
+            }
+            
+            #boton-enviar {
+                background: rgb(67, 67, 169);
+                color: white;
+                border: 0;
+            }
+
+    </style>
+    </head>
+    
+    <body>
+    
+    <header>
+        <h1>Portafolio @YerriDev </h1>
+    
+        <!-- <iframe style="width: 100%; aspect-ratio: 16/9;"  src="https://www.youtube.com/embed/UI8KtyAF2JQ?si=cO_nCbJLgcypCNOv" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> -->
+        
+        <nav>
+                <a class="enlace-yerri" href="#Lenguajes">Lenguajes</a>
+                <a class="enlace-yerri" href="#Aplicaciones">Aplicaciones</a>
+                <a href="#Proyectos">Proyectos</a>
+                <a href="https://youtube.com" target="_blank" rel="noreferrer">Canal YouTube</a> 
+                <!-- Etiqueta: rel= noreferrer 
+                                    -> por cuestiones de seguridad. -->
+            </nav>
+        </header>
+
+
+
+        <main>
+
+            <p>Hola soy estudiante de la carrera de <strong>Ingeniería de Sistemas</strong>, estoy aprediendo front-end.</p>
+
+            <!--Listas-->
+            <h2 id="Lenguajes">Lenguajes:</h2>
+            <ul>
+                <li>HTML5</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>Frameword</li>
+            </ul>
+
+            <!--Imagenes-->
+            <a download href="imagenes/PerfilSocial.jpg">
+                <img
+                id="perfil"
+                class="img-personal"
+                src="imagenes/PerfilSocial.jpg" 
+                alt="PerfilSocial" 
+                title="Imagenn de PerfilSocial" 
+                width=300
+                height=300
+                >   <!-- img: es una etiqueta remplazable(cambiante) NO TIENE CIERRE -->
+            </a>
+            
+            
+            
+            <!-- SEMANTICA HTML === GUIA -->
+
+            <h2 id="Proyectos">Proyectos Realizados</h2>   
+
+            <aside>
+                <header>
+                    <h3 id="Aplicaciones">Aplicaciones favoritas</h3>
+                </header>
+                <ol type="1" reversed start="50">
+                    <li>Virtual Dj</li>
+                    <li>Obsidian</li>
+                    <li value="2">ApacheNetbeans</li>
+                    <li>VS Code</li>
+                </ol>
+            </aside>
+
+            <section>
+                <article>
+                    <header>
+                        <h4>Página Velada V</div>
+                        <img style="width: 100%; aspect-ratio: 640/291;"
+                          loading="lazy"
+                          src="imagenes/velada.jpg" 
+                          alt="cap-velada">
+                    </header>
+                    <p>
+                        Ibai me llamo para desarrollar la página de la verlada del año.
+                    </p>
+                    <footer>
+                        <small>Tecnologías utilizadas: HTML, CSS, JavaScript</small>
+                    </footer>
+                </article>    
+            
+                <article>
+                    <header>
+                        <h4>Aplicación Web de E-Commerce</h4>
+                    </header>
+                    <p>
+                        Creación de una plataforma de comercio electrónico para una
+                        tienda loca.
+                    </p>
+                    <footer>
+                        <small>Tecnologías utilizadas: React, Node.js, MogoDB</small>
+                    </footer>
+                </article>
+
+                <article>
+                    <header>
+                        <h4>Aplición Movil de rastreo de Fitness</div>
+                    </header>
+                    <p>
+                        Desarrollo de una Aplicación móvil para rastrear actividades
+                        físicas y hábitos de alimentación.
+                    </p>
+                    <footer>
+                        <small>Tecnologías utilizadas: Flutter, Firebase</small>
+                    </footer>
+                </article>
+            </section>
+
+            <section>
+                <h2>Pregutas Frecuentes</h2>
+                <details open>
+                    <summary>¿Que estuidos tienes?</summary>
+                    <p>
+                        Estudiante de la carrera de Ingeriría de Sistemas,
+                        en la universidad Señor de Sipan.
+                    </p>
+                </details>
+                <details>
+                    <summary>¿Cuales son tus hobies?</summary>
+                    <p>Me gusta jugar al fútbol. Ademas de tocar algun instrumento.</p>
+                    
+                </details>
+            </section>
+
+            <section>
+                <header>
+                    <h2>Formulario de Contacto</h2>
+                </header>
+                
+                <form method="get" action="registro.php">
+                    <fieldset>
+                        <legend>Informacion Personal</legend>
+                        <!-- OJO : FORMA 1 -->
+                        <label for="nombre">Nombre: </label>
+                            <input 
+                            type="text" 
+                            name="nombre" 
+                            id="nombre" 
+                            placeholder="Ingresa nombre"
+                            required>
+
+                        <!-- OJO : FORMA 2 Dentro del label -->
+                        <div>
+                            <label >Apellidos: 
+                                <input type="text" name="apellido" placeholder="Ingresa apellido">
+                            </label>
+                        </div>
+                        <div>
+                            <label for="emali">Email: </label>
+                            <input type="email" id="email" name="email" placeholder="Ingrese emailtephone">
+                        </div>
+
+                    </fieldset>
+                    <fieldset>
+                        <legend>Informacion Adicional</legend>
+                        <label for="phone">Ingrese telefono</label>
+                        <input type="tel" id="phone" name="phone" placeholder="Ingrese celular" required pattern="[0-9]{9}">
+                    </fieldset>
+                    
+                    <fieldset>
+                        <legend>Otros</legend>
+                        <div>
+                            <label for="por">¿Por qué quieres contactar?</label>
+                            <select name="por" id="por">
+                                <option value="1">Trabajo</option>
+                                <option value="2">Duda</option>
+                                <option value="3">Mas Información</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label for="terminos">¿Aceptas terminos?</label>
+                            <input type="checkbox" name="terminos" id="terminos" required>
+                        </div>
+
+                        <div>
+                            <label for="lenguajeP">¿Cúal es el lenguaje quieres que te ayude?</label>
+                            <input list="lenguajeP" name="lenguajeP">
+                            <datalist id="lenguajeP">
+                                <option value="HTML"></option>
+                                <option value="CSS"></option>
+                                <option value="JavaScript"></option>
+                                <option value="Python"></option>
+                                <option value="Java"></option>
+                            </datalist>
+                        </div>
+                    </fieldset>
+
+                    <button id="boton-enviar" >Enviar</button>
+                    <input type="submit" value="Enviar Contacto">
+                    <input type="reset">
+                </form>
+
+            </section>
+
+        </main>
+
+        <footer>
+            Copyright @ 2024 - Portafolo YerriDev
+            <div>
+                <a href="mailto:yerri.contactos@gmail.com">Enviar un Correo</a>
+                <a href="tel:+51 922653095">Llamar por celular.</a>
+                <a href="whatsapp://send?phone=+51 902103562&text=Hola, <mensaje producto>">Enviar whastapp</a>
+            </div>a
+        </footer>
+
+
+
+    
+    </body>
+</html>
+
+
+
+
+<!--
+    Referencias:
+    - mdn web docs_: para descripcion de etiquetas
+    - opengraph.xyz: para metadatos 
+    -->
