@@ -1,5 +1,85 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Sofia&display=swap');
 h1 {
     text-align: center;
     color: blueviolet;
+    letter-spacing: 7px;
+    word-spacing: 10px;
+    text-shadow: 2px 2px 2px gainsboro;
+    text-transform: uppercase;
+    font-family: "Sofia", cursive;
+}
+h2 {
+    text-align: center;
+    /* color: #ff8500; */
+    font-family: "Bebas Neue", sans-serif;
+    letter-spacing: 10px;
+}
+
+.caja {
+    padding: 5px;
+    width: 40%;
+    height: 80px;
+    border-radius: 5px;
+    color: white;
+    margin: 10px;
+    font-size: 20px;
+    float: left;
+    text-align: center;
+}
+
+.caja.serif {
+    background-color: #5a189a;
+
+}
+
+.fuente-times{
+    /*font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: small-caps;
+    font-size: 20px;*/
+    /* font: font-style font-variant font-weight  *font-size/line-heigth *font-family; */
+    font: italic small-caps bolder 20px "Roboto", sans-serif;
+}
+
+.fuente-georgia {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-weight: bold;
+    font-variant: normal;
+    font-size: 1.25em; /* 1em == 16px*/
+}
+
+.caja.sans-serif {
+    background-color: #00b4d8;
+
+}
+
+.fuente-arial {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: oblique;
+    font-weight: bolder;
+    font-size: 1vw;
+}
+
+.fuente-verdana {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 900;
+}
+
+.caja.monospace {
+    background-color: #f15bb5;
+}
+
+.fuente-courier {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.caja.cursive {
+    background-color: #ff8500;
+}
+
+.fuente-lucida {
+    font-family: 'Lucida Handwriting', cursive;
 }
