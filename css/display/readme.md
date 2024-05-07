@@ -16,3 +16,7 @@ Para el comportamiento de un elemento si de tipo block o inline.
 
 - Oculta y NO ocupa lugar en el espacio
 `{css icon  title:ocultaAll} display: none;`
+```css
+display: block;
+```
+
