@@ -15,4 +15,4 @@ Para el comportamiento de un elemento si de tipo block o inline.
 `{css icon  title:oculto} visibility: hidden;`
 
 - Oculta y NO ocupa lugar en el espacio
-`{css icon  title:ocultaAll} display: none;
+`{css icon  title:ocultaAll} display: none;`
