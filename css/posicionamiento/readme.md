@@ -2,7 +2,7 @@
 autor: yerri
 lang: css
 ---
-h2 Posicion en CSS
+# Posicion en CSS
 
 ### Posicionamiento de Elementos CSS
 ---
