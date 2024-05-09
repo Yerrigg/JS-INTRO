@@ -25,6 +25,7 @@ position: valor;
 Ejes de posisicon de delementos.(x,y z)
 En el z -> se superponen segundo el orden. Depende:
 - Elementos no posicionaodos y posicionados.
+- Se puede realizar con respecto a posicionamiento absoluto de un elemento. Obviamente para poder sobreponer.
 
 
 
