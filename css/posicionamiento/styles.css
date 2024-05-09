@@ -1,0 +1,32 @@
+h1 {
+    text-align: center;
+    color: crimson;
+}
+/*
+div {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    /* max-width: 50%; */
+    /* border: 3px solid firebrick;
+    margin: auto; */
+    /* text-align: center; */
+/* }*/
+
+
+div.relativo {
+    position: relative;
+    height: 200px;
+    width: 500px;
+    left: 100px;
+    top: 10px;
+    border: 3px solid cornflowerblue;
+
+}
+
+div.absoluto {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    border: 3px solid firebrick;
+}
