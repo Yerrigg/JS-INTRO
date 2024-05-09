@@ -27,5 +27,16 @@ En el z -> se superponen segundo el orden. Depende:
 - Elementos no posicionaodos y posicionados.
 - Se puede realizar con respecto a posicionamiento absoluto de un elemento. Obviamente para poder sobreponer.
 
+### Propiedad overflow
+Sirver para el desvordamiento de un bloque. Todo el contenido que no cape en el se puede solucionar con esta propiedad. La cual tiene diferentes estados:
+1. **visible:** -> Propeidad por defecto.
+2. **hidden:** -> Solo muestra el contenido que cape en el, dado por sus dimenciones.
+3. **scroll:** -> Añade un scroll al bloque(contenedor). Para así mostrar todo el contenido.
+4. **auto:** -> Pone el scroll en caso necesario.
 
+>[!info]
+Overflow solo funciona si establecemos un alto(*height*) a nuestro contendeor
+
+
+### Propiedad float
 
