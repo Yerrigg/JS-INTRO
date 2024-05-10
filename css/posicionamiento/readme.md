@@ -35,8 +35,13 @@ Sirver para el desvordamiento de un bloque. Todo el contenido que no cape en el 
 4. **auto:** -> Pone el scroll en caso necesario.
 
 >[!info]
-Overflow solo funciona si establecemos un alto(*height*) a nuestro contendeor
+>Overflow solo funciona si establecemos un alto(*height*) a nuestro contendeor
 
 
 ### Propiedad float
+Ubica a la derecha(*right*) o izquierda(*left*) de su contenedor.
+Todo estas hubicaciones que le podemos dar se realiza en el contenedor, pero para limpiar y ubicar un nuevo bloque debajo utilizamos:
+```css
+    clear: both;
+```
 
