@@ -23,3 +23,27 @@ span {
     height: 50px;
     padding: 5px;
 }
+
+.menu {
+    list-style-type: none;
+    text-align: center;
+
+}
+
+.menu li {
+    display: inline-block;
+    padding: 15px;
+    margin: 20px;
+    background-color: #e63956;
+    border-radius: 6px;
+}
+
+.menu a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.menu a:hover {
+    color: #f1fa6a;
+}
+
