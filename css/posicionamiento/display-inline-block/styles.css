@@ -1,0 +1,25 @@
+h1 {
+    text-align: center;
+    color: #547b9d;
+    letter-spacing: 4px;
+    word-spacing: 10px;
+}
+
+div.contenedor {
+    width: 80%;   
+    height: 20%;
+    overflow: auto;
+    margin: auto;
+    border: 3px dashed #a8d;
+}
+
+span {
+    font-weight: bolder;
+    font-style: italic;
+    font-size: large;
+    background-color: #8adadc;
+    border: 1px solid #457b9d;
+    display: inline-block;
+    height: 50px;
+    padding: 5px;
+}

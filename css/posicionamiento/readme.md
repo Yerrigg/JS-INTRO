@@ -45,3 +45,6 @@ Todo estas hubicaciones que le podemos dar se realiza en el contenedor, pero par
     clear: both;
 ```
 
+### Propiedad display (inline-block)
+Anteriormente ya hemos conocido los valores de display tales como  block e inline. Ahora vemos una combinación de ambos con la propiedad *inline-block*. Donde tenemos el manejo completo de un elemento con una sola linea podiendo aplicarle estilos propios de un bloque.
+
