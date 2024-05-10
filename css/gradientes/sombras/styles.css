@@ -1,0 +1,32 @@
+h1{
+    text-align: center;
+    color: #09f;
+    letter-spacing: 5px;
+    word-spacing: 7px;
+    text-shadow: 2px 2px 5px gray;
+}
+
+div.contenedor{
+    width: 50%;
+    height: 20%;
+    margin: 50px auto;
+    border: 3px solid #05f;
+    text-align: center;
+    padding: 15px;
+    border-radius: 17px;
+    box-shadow: 4px 2px 15px 3px gray;
+    
+}
+
+div.contenedor p {
+    /* display: block; */
+    padding-top: 2px;
+    font-size: 1.2em;
+    font-weight: bolder;
+    font-family: sans-serif;
+}
+
+div.contenedor img {
+    background-color: #05f;
+    border-radius: 17px;
+}
