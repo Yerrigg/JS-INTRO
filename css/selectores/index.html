@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selectores convinados CSS</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Selectores convinados en CSS</h1>
+    <div class="contenedor desendiente">
+        Selectores desendientes (en cualquier nivel interno):
+        <p>Primer reglón</p>
+        <p>Segundo reglón</p>
+        <section>
+            <p>Tercer reglón</p>
+        </section>
+    </div>   
+    
+    <div class="contenedor hijo">
+        Selectores hijo (child):
+        <p>Primer reglón</p>
+        <p>Segundo reglón</p>
+        <section>
+            <p>Tercer reglón</p>
+        </section>
+        <div>
+            <p>Cuarto reglón</p>
+        </div>
+        <p>Quinto reglón</p>
+    </div>   
+    
+    <div class="contenedor adyacente">
+        Selector adyacente:
+        <p>Primer reglón</p>
+    </div>
+    <p>Segundo reglón</p>
+    <p>Tercer reglón</p>
+
+
+    <div class="contenedor hermano">
+        Selector hermano (sibling):
+        <p>Primer reglón</p>
+    </div>
+    <p>Segundo reglón</p>
+    <p>Tercer reglón</p>
+</body>
+</body>
+</html>
