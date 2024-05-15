@@ -1,0 +1,47 @@
+body{
+    background-color: gray;
+}
+
+.contenedor, .contenedor-one {
+    display: flex;
+    /* flex-direction: row; */
+    /* flex-wrap: wrap; */
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+
+}
+
+div.contenedor > div, .contenedor-one > div, .contenedor.cuatro > div {
+    width: 250px;
+    height: 80px;
+    border: 1px solid yellow;
+    background-color: crimson;
+    color: aliceblue;
+    margin: 20px;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+
+.contenedor-one {
+    justify-content: space-around;
+}
+
+.contenedor.dos {
+    justify-content: space-between;
+}
+
+.contenedor.tres {
+    justify-content: flex-end;
+}
+
+.contenedor.cuatro {
+    
+    height: 300px;
+    background-color: aliceblue;
+    align-items: center; 
+}
+.contenedor.cuatro > div {
+   
+
+}
