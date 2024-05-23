@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Plus Jakata Sans", sans-serif;
+}
+
+.conteiner{
+    border: 3px solid;
+    margin: 4px auto;   
+    width: 500px;
+    height: 500px;
+
+    display: grid;
+    grid-auto-rows: max-content;
+    gap: 2rem;
+}
+
+.position {
+    width: 100px;
+    height: 100px;
+    display: grid;
+    place-items: center;
+    color: white;
+    font-size: 1.3rem;
+}
+
+.relative {
+    background-color: royalblue;
+    position: relative;
+    top: 100px;
+}
+
+.absolute {
+    background-color: deeppink;
+}
+
+.fixed {
+    background-color: midnightblue;
+}
