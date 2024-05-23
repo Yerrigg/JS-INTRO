@@ -1,3 +1,4 @@
+/* reset css */
 * {
     margin: 0;
     padding: 0;
@@ -8,6 +9,7 @@ body {
     font-family: sans-serif;
 }
 
+/* Estilos header y nav */
 header h1 {
     padding: 10px 0px 10px 25%;
     background-color: #565962;
@@ -51,6 +53,7 @@ nav a:hover {
     color: #fcfcfd;
 }
 
+/* Estilo general contendor principal */
 .contenedor {
     width: 100%;
     margin-top: 65px;
@@ -66,6 +69,7 @@ nav a:hover {
     text-align: justify;
 }
 
+/* Estilos para apartados */
 .contenedor.item {
     margin-top: 15px;
     display: inline-block;
@@ -102,6 +106,9 @@ nav a:hover {
     margin-top: 15px;
 }
 
+.flecha:hover{
+    background-color: #fcfcfd;
+}
 .contenedor .flecha.right {
     float: right;
 }
